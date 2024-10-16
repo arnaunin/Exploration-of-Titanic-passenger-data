@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/mnt/c/Users/arnau/onedrive/Escritorio/conquerBlocks/python/proyectos/Exploration-of-Titanic-passenger-data/Titanic_streamlit"
+set -gx VIRTUAL_ENV "/mnt/c/Users/arnau/onedrive/Escritorio/conquerBlocks/python/proyectos/Exploration-of-Titanic-passenger-data/titanicvenv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -52,8 +52,8 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Prompt override?
-        if test -n "(Titanic_streamlit) "
-            printf "%s%s" "(Titanic_streamlit) " (set_color normal)
+        if test -n "(titanicvenv) "
+            printf "%s%s" "(titanicvenv) " (set_color normal)
         else
             # ...Otherwise, prepend env
             set -l _checkbase (basename "$VIRTUAL_ENV")

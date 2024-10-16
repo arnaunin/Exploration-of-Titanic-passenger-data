@@ -8,5 +8,6 @@ st.set_page_config(
 )
 
 st.header("Titanic passenger data")
+st.header("Titanic passenger data")
+st.header("Titanic passenger data")
 
-st.write("Hola mundo")

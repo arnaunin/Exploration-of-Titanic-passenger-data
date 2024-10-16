@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' /mnt/c/Users/arnau/onedrive/Escritorio/conquerBlocks/python/proyectos/Exploration-of-Titanic-passenger-data/Titanic_streamlit/bin/python3 "$0" "$@"
+'''exec' /mnt/c/Users/arnau/onedrive/Escritorio/conquerBlocks/python/proyectos/Exploration-of-Titanic-passenger-data/titanicvenv/bin/python3 "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re

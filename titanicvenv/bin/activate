@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/mnt/c/Users/arnau/onedrive/Escritorio/conquerBlocks/python/proyectos/Exploration-of-Titanic-passenger-data/Titanic_streamlit"
+VIRTUAL_ENV="/mnt/c/Users/arnau/onedrive/Escritorio/conquerBlocks/python/proyectos/Exploration-of-Titanic-passenger-data/titanicvenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,8 +54,8 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    if [ "x(Titanic_streamlit) " != x ] ; then
-	PS1="(Titanic_streamlit) ${PS1:-}"
+    if [ "x(titanicvenv) " != x ] ; then
+	PS1="(titanicvenv) ${PS1:-}"
     else
     if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
         # special case for Aspen magic directories
