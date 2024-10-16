@@ -1,1 +1,1 @@
-# Exploration-of-Titanic-passenger-data
+# Exploration of Titanic passenger data
